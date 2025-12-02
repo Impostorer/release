@@ -175,7 +175,6 @@ class _SubjectDetailScreenState extends State<SubjectDetailScreen> {
                         ),
                   ),
                   const SizedBox(height: 8),
-                  _buildInfoRow('ID предмета', _subject.id.toString()),
                   _buildInfoRow(
                       'Практических работ', _subject.practiceCount.toString()),
                   _buildInfoRow('Дата создания', _subject.createdAt),

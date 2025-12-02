@@ -489,16 +489,7 @@ class _PracticeDetailScreenState extends State<PracticeDetailScreen> {
                                   ),
                                 ),
                               ),
-                            const SizedBox(height: 4),
-                            Text(
-                              'ID задачи: ${task.id}',
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .bodySmall
-                                  ?.copyWith(
-                                    color: Colors.grey[500],
-                                  ),
-                            ),
+                            const SizedBox(height: 4)
                           ],
                         ),
                       ),
